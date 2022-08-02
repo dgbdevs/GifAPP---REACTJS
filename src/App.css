@@ -11,6 +11,22 @@ body{
   background-color: #222;
   color:#FFF;
 }
+.gif-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.resultImg{
+  margin:5px;
+  cursor: pointer;
+}
+.resultImg img{
+  border-radius: 15px;
+  transition: all 0.4s;
+
+}
+.resultImg img:hover{
+  transform: scale(1.2);
+}
 .title{
 
   display: flex;
